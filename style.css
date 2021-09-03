@@ -11,3 +11,16 @@
     background-size: cover;
 
 }
+
+.header {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.nav {
+    
+}
