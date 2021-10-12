@@ -91,20 +91,74 @@
 
 .left h1 {
     font-size: 40px;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .left p {
     color: #848391;
     line-height: 1.3;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
 }
 
 .left .button {
     display: flex;
     align-items: center;
+    cursor: pointer;
+}
+
+.left div img {
+    width: 150px;
 }
 
 .left, .right {
     flex: 1;
+}
+
+.section2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section2 .text-container {
+    width: 70%;
+}
+
+.section2 .left {
+    background-image: url(/IMGs/image-stand-out.jpg);
+    background-position: center top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.section2 .right {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.right h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.right p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #848391;
+    line-height: 1.3;
+    margin-bottom: 16px;
+}
+
+.right .button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right div img {
+    width: 150px;
 }
