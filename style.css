@@ -90,8 +90,9 @@
 }
 
 .left h1 {
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 16px;
+    color: rgb(74, 74, 102);
 }
 
 .left p {
@@ -142,8 +143,9 @@
 }
 
 .right h1 {
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 16px;
+    color: rgb(50, 50, 87);
 }
 
 .right p {
@@ -186,4 +188,14 @@
 .section3 .text-container {
     width: 60%;
     margin-bottom: 20px;
+    text-align: center;
+    font-family: system-ui;
+}
+
+.section3 h1 {
+    font-size: 30px;
+}
+
+.section3 .right p {
+    color: rgb(50, 50, 87);
 }
