@@ -199,3 +199,32 @@
 .section3 .right p {
     color: rgb(50, 50, 87);
 }
+
+.testimonials {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFFBF8;
+    padding: 50px;
+}
+
+.testimonials h1 {
+    color: #A0A1A2;
+    font-size: 20px;
+    font-family: system-ui;
+    margin-bottom: 40px;
+
+}
+
+.clients-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients-section .client-tab {
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+    align-items: center;
+}
