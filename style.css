@@ -201,10 +201,10 @@
 }
 
 .testimonials {
-    align-items: center;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #FFFBF8;
     padding: 50px;
 }
@@ -227,4 +227,11 @@
     flex-direction: column;
     flex: 0.3;
     align-items: center;
+}
+
+.client-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
 }
