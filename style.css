@@ -92,7 +92,7 @@
 .left h1 {
     font-size: 40px;
     margin-bottom: 16px;
-    color: rgb(74, 74, 102);
+    color: rgb(50, 50, 87);
 }
 
 .left p {
@@ -267,5 +267,36 @@
 
 .name-tag p {
     margin-top: 10px;
+}
+
+.pic-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic-sec .pics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pics img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.footer-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #90d4c5 
+}
+
+.footer-menu .footer-menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
