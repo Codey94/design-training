@@ -14,7 +14,6 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
-
 }
 
 .header {
@@ -323,4 +322,19 @@
 }
 
 .social-links-section .social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.social-links a img {
+    padding: 10px;
+    height: 24px;
+    width: 24px;
+}
+
+.social-links a img:hover {
+    color: white;
 }
