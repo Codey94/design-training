@@ -40,7 +40,7 @@
 .contact {
     background-color: white;
     padding: 8px 30px;
-    color: black;
+    color: rgb(0, 0, 0);
     border-radius: 20px;
     cursor: pointer;
     transition: 0.2s all ease-in-out;
@@ -55,17 +55,20 @@
     flex-direction: column; /* flips alignment when used */
     align-items: center; /* Normally vertical alignment */
     justify-content: center; /* Normally horizontal alignment */
-    font-size: 50px;
     flex-grow: 1;
     color: white;
-    font-weight: bold;
-    font-size: 70px;
+}
 
+.text {
+    font-size: 70px;
+    font-weight: bold;
 }
 
 .arrow {
     margin-top: 60px;
 }
+
+/* --------------------------------------------------------------- Section 1 */
 
 .section1, .section2, .section3 {
     display: flex;
@@ -114,6 +117,8 @@
 .left, .right {
     flex: 1;
 }
+
+/* --------------------------------------------------------------- Section 2 */
 
 .section2 img {
     height: 100%;
@@ -164,6 +169,8 @@
     width: 150px;
 }
 
+/* --------------------------------------------------------------- Section 3 */
+
 .section3 .left {
     background-image: url(/IMGs/image-graphic-design.jpg);
     background-position: center top;
@@ -198,6 +205,8 @@
 .section3 .right p {
     color: rgb(50, 50, 87);
 }
+
+/* --------------------------------------------------------------- Testimonials Section */
 
 .testimonials {
     display: flex;
@@ -268,6 +277,8 @@
     margin-top: 10px;
 }
 
+/* --------------------------------------------------------------- Pics Section */
+
 .pic-sec {
     display: flex;
     align-items: center;
@@ -285,6 +296,8 @@
     width: 100%;
     object-fit: cover;
 }
+
+/* --------------------------------------------------------------- Footer */
 
 .footer {
     display: flex;
@@ -338,3 +351,16 @@
 .social-links a img:hover {
     color: white;
 }
+
+/* --------------------------------------------------------------- Media Queries */
+
+@media screen and (max-width: 600px) {
+    /* --------------------------------------------------------------- Header */
+
+    .main-cta {
+        font-size: 50px;
+    }
+
+
+}
+
