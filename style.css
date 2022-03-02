@@ -37,6 +37,14 @@
     cursor: pointer;
 }
 
+.nav span:hover {
+    color: antiquewhite;
+}
+
+.icon {
+    display: none;
+}
+
 .contact {
     background-color: white;
     padding: 8px 30px;
@@ -359,9 +367,32 @@
 @media screen and (max-width: 600px) {
     /* --------------------------------------------------------------- Header */
 
-    .main-cta {
-        font-size: 50px;
+    .text {
+        font-size: 34px;
     }
+
+    .nav {
+        display: block;
+        height: 350px;
+        width: 300px;
+        border-radius: 15px;
+        background-color: white;
+        color: hsl(51, 100%, 49%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .icon {
+        display: block;
+        color: white;
+    }
+
+
+
+
 
 
 }

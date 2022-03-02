@@ -15,7 +15,7 @@
             <div class="header">
                 <img class="logo" src="https://svgur.com/i/Zvd.svg">
                 
-                <!-- <div class="nav">
+                <div class="nav">
                     <span>About</span> 
                     <span>Services</span>
                     <span>Projects</span>
@@ -23,7 +23,10 @@
                         Contact
                     </div>
 
-                </div> -->
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
             </div>
             <div class="main-cta">
                 <span class="text">WE ARE CREATIVES</span>
@@ -195,6 +198,15 @@
             </div>
         </div>
     </div>
-
+<script>
+    function myFunction() {
+  var x = document.getElementsByClassName("nav");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
 </body>
 </html>
