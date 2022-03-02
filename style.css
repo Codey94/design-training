@@ -329,12 +329,14 @@
     margin: 10px;
 }
 
-.social-links a img {
+.social-links a i {
+    text-align: center;
     padding: 10px;
     height: 24px;
     width: 24px;
+    color: #2d7466;
 }
 
-.social-links a img:hover {
+.social-links a i:hover {
     color: white;
 }
