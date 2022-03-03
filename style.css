@@ -22,20 +22,19 @@
     height: 60px;
     display: flex;
     justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px 20px;
     align-items: center;
 }
 
 .nav {
     display: flex;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     align-items: center;
 }
 
 .nav span{
-    margin-right: 30px;
+    padding: 20px;
     cursor: pointer;
 }
 
@@ -49,9 +48,11 @@
 
 .contact {
     background-color: white;
-    padding: 8px 30px;
+    padding: 15px 30px;
+    font-family: "Fraunces";
+    font-weight: 700;
     color: rgb(0, 0, 0);
-    border-radius: 20px;
+    border-radius: 30px;
     cursor: pointer;
     transition: 0.2s all ease-in-out;
 }
@@ -72,6 +73,7 @@
 .text {
     font-size: 70px;
     font-weight: bold;
+    font-family: "Fraunces";
 }
 
 .arrow {
@@ -374,7 +376,7 @@
     }
 
     .nav {
-        display: block;
+        display: none;
         border-radius: 15px;
         align-items: center;
         justify-content: center;
@@ -394,6 +396,7 @@
     }
 
     .nav-box {
+        display: none;
         align-items: center;
         justify-content: center;
         background-color: white;
